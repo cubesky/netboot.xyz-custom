@@ -13,9 +13,9 @@ echo ${cls}
 goto ${custom_choice}
 goto custom_exit
 
-:memtest
+:win11
 kernel https://boot.netboot.xyz/memdisk raw iso
-initrd https://blivechat.csky.bid/external-styles/mt86plus64.grub.iso
+initrd http://10.42.10.4/Windows11.iso
 boot || goto custom_exit
 
 :custom_exit
